@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+.container {
+    background-color: rgb(36, 38, 85);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box1 {
+    position: relative;
+    margin: 20px;
+    width: 50%;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+h1 {
+    color: green;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+
+
+
+}
+
+
+
+span {
+    cursor: pointer;
+    color: black
+}
+
+.box2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 10px;
+    height: 4vh;
+    margin-top: 10px;
+
+}
+
+input {
+    outline-color: none;
+    background-color: transparent;
+    border-width: 0px;
+    padding-left: 10px;
+}
+
+input ::placeholder {
+    padding: 5px;
+}
+
+.box3 {
+    position: relative;
+    bottom: 7px;
+}
+
+p {
+    opacity: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 10px;
+}
+
+.cbtn {
+    background-color: transparent;
+    border-width: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.cbtn:hover {
+    background-color: rgb(212, 202, 202);
+    height: 3vh;
+    width: 3vw;
+    border-radius: 2px;
+
+}
+
+.cbtn:hover~p {
+    opacity: 1;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.gbtn {
+    background-color: green;
+    outline: none;
+    border-width: 0px;
+    padding: 5px;
+
+}
+
+
+button {
+    margin: 10px;
+}
